@@ -1,0 +1,1032 @@
+src/test/java/application/Main.java:10:	Avoid short class names like Main
+src/test/java/application/Main.java:10:	Avoid short class names like Main
+src/test/java/application/Main.java:10:	Each class should declare at least one constructor
+src/test/java/application/Main.java:10:	Each class should declare at least one constructor
+src/test/java/application/Main.java:10:	Header comments are required
+src/test/java/application/Main.java:10:	Header comments are required
+src/test/java/application/Main.java:12:	Parameter 'primaryStage' is not assigned and could be declared final
+src/test/java/application/Main.java:12:	Parameter 'primaryStage' is not assigned and could be declared final
+src/test/java/application/Main.java:14:	Local variable 'root' could be declared final
+src/test/java/application/Main.java:14:	Local variable 'root' could be declared final
+src/test/java/application/Main.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:14:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:15:	Local variable 'scene' could be declared final
+src/test/java/application/Main.java:15:	Local variable 'scene' could be declared final
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/Main.java:19:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/application/Main.java:19:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/test/java/application/Main.java:20:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/Main.java:20:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/Main.java:24:	Parameter 'args' is not assigned and could be declared final
+src/test/java/application/Main.java:24:	Parameter 'args' is not assigned and could be declared final
+src/test/java/application/Main.java:24:	Public method and constructor comments are required
+src/test/java/application/Main.java:24:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/test/java/application/RecruitmentController.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/test/java/application/RecruitmentController.java:18:	Avoid unused imports such as 'com.jfoenix.controls.JFXAlert'
+src/test/java/application/RecruitmentController.java:18:	Avoid unused imports such as 'com.jfoenix.controls.JFXAlert'
+src/test/java/application/RecruitmentController.java:38:	Avoid unused imports such as 'javafx.scene.Parent'
+src/test/java/application/RecruitmentController.java:38:	Avoid unused imports such as 'javafx.scene.Parent'
+src/test/java/application/RecruitmentController.java:44:	Avoid unused imports such as 'javafx.scene.layout.AnchorPane'
+src/test/java/application/RecruitmentController.java:44:	Avoid unused imports such as 'javafx.scene.layout.AnchorPane'
+src/test/java/application/RecruitmentController.java:48:	Avoid unused imports such as 'services_cand_interv.InterviewServiceRemote'
+src/test/java/application/RecruitmentController.java:48:	Avoid unused imports such as 'services_cand_interv.InterviewServiceRemote'
+src/test/java/application/RecruitmentController.java:51:	Each class should declare at least one constructor
+src/test/java/application/RecruitmentController.java:51:	Each class should declare at least one constructor
+src/test/java/application/RecruitmentController.java:51:	Header comments are required
+src/test/java/application/RecruitmentController.java:51:	Header comments are required
+src/test/java/application/RecruitmentController.java:51:	The class 'RecruitmentController' has a Modified Cyclomatic Complexity of 3 (Highest = 11).
+src/test/java/application/RecruitmentController.java:51:	The class 'RecruitmentController' has a Modified Cyclomatic Complexity of 3 (Highest = 11).
+src/test/java/application/RecruitmentController.java:51:	The class 'RecruitmentController' has a Standard Cyclomatic Complexity of 3 (Highest = 11).
+src/test/java/application/RecruitmentController.java:51:	The class 'RecruitmentController' has a Standard Cyclomatic Complexity of 3 (Highest = 11).
+src/test/java/application/RecruitmentController.java:51:	This class has too many methods, consider refactoring it.
+src/test/java/application/RecruitmentController.java:51:	This class has too many methods, consider refactoring it.
+src/test/java/application/RecruitmentController.java:51:	Too many fields
+src/test/java/application/RecruitmentController.java:51:	Too many fields
+src/test/java/application/RecruitmentController.java:53:	Field comments are required
+src/test/java/application/RecruitmentController.java:53:	Field comments are required
+src/test/java/application/RecruitmentController.java:53:	The static field name 'EntId' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:53:	The static field name 'EntId' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:53:	To avoid mistakes add a comment at the beginning of the EntId field if you want a default access modifier
+src/test/java/application/RecruitmentController.java:53:	To avoid mistakes add a comment at the beginning of the EntId field if you want a default access modifier
+src/test/java/application/RecruitmentController.java:53:	Use explicit scoping instead of the default package private level
+src/test/java/application/RecruitmentController.java:53:	Use explicit scoping instead of the default package private level
+src/test/java/application/RecruitmentController.java:53:	Variables should start with a lowercase character, 'EntId' starts with uppercase character.
+src/test/java/application/RecruitmentController.java:53:	Variables should start with a lowercase character, 'EntId' starts with uppercase character.
+src/test/java/application/RecruitmentController.java:54:	Field comments are required
+src/test/java/application/RecruitmentController.java:54:	Field comments are required
+src/test/java/application/RecruitmentController.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:56:	Field comments are required
+src/test/java/application/RecruitmentController.java:56:	Field comments are required
+src/test/java/application/RecruitmentController.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Avoid excessively long variable names like btn_showCandidacies
+src/test/java/application/RecruitmentController.java:58:	Avoid excessively long variable names like btn_showCandidacies
+src/test/java/application/RecruitmentController.java:58:	Avoid excessively long variable names like btn_showInterviews
+src/test/java/application/RecruitmentController.java:58:	Avoid excessively long variable names like btn_showInterviews
+src/test/java/application/RecruitmentController.java:58:	Field comments are required
+src/test/java/application/RecruitmentController.java:58:	Field comments are required
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showCandidacies' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showCandidacies' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showInterviews' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showInterviews' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showOffers' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showOffers' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showTests' is not final.
+src/test/java/application/RecruitmentController.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_showTests' is not final.
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showCandidacies' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showCandidacies' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showInterviews' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showInterviews' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showTests' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	The field name 'btn_showTests' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:58:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:58:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:60:	Field comments are required
+src/test/java/application/RecruitmentController.java:60:	Field comments are required
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_acceptCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_acceptCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_deleteOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_deleteOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_editOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_editOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_newOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_newOffer' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_rejectCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_rejectCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_acceptCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_acceptCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_deleteOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_deleteOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_editOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_editOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_newOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_newOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_rejectCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_rejectCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	The field name 'btn_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:60:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:60:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:62:	Avoid excessively long variable names like btn_cancelAddOffer
+src/test/java/application/RecruitmentController.java:62:	Avoid excessively long variable names like btn_cancelAddOffer
+src/test/java/application/RecruitmentController.java:62:	Field comments are required
+src/test/java/application/RecruitmentController.java:62:	Field comments are required
+src/test/java/application/RecruitmentController.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_addOffer' is not final.
+src/test/java/application/RecruitmentController.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_addOffer' is not final.
+src/test/java/application/RecruitmentController.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_cancelAddOffer' is not final.
+src/test/java/application/RecruitmentController.java:62:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btn_cancelAddOffer' is not final.
+src/test/java/application/RecruitmentController.java:62:	The field name 'btn_addOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:62:	The field name 'btn_addOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:62:	The field name 'btn_cancelAddOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:62:	The field name 'btn_cancelAddOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:62:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:62:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:64:	Field comments are required
+src/test/java/application/RecruitmentController.java:64:	Field comments are required
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_addOffer' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_addOffer' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_candidacies' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_candidacies' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_interviews' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_interviews' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_offers' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_offers' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_tests' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_tests' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:64:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'pane_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_addOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_addOffer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_candidacies' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_candidacies' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_interviews' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_interviews' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_offers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_offers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_tests' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_tests' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	The field name 'pane_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:64:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:64:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:66:	Field comments are required
+src/test/java/application/RecruitmentController.java:66:	Field comments are required
+src/test/java/application/RecruitmentController.java:66:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:66:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:66:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lv_offers' is not final.
+src/test/java/application/RecruitmentController.java:66:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lv_offers' is not final.
+src/test/java/application/RecruitmentController.java:66:	The field name 'lv_offers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:66:	The field name 'lv_offers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	Field comments are required
+src/test/java/application/RecruitmentController.java:68:	Field comments are required
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_endDate' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_endDate' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_nOffEnd' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_nOffEnd' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_nOffStart' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_nOffStart' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_startDate' is not final.
+src/test/java/application/RecruitmentController.java:68:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dp_startDate' is not final.
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_endDate' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_endDate' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_nOffEnd' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_nOffEnd' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_nOffStart' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_nOffStart' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_startDate' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	The field name 'dp_startDate' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:68:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:68:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:70:	Avoid excessively long variable names like ta_nOffDescription
+src/test/java/application/RecruitmentController.java:70:	Avoid excessively long variable names like ta_nOffDescription
+src/test/java/application/RecruitmentController.java:70:	Field comments are required
+src/test/java/application/RecruitmentController.java:70:	Field comments are required
+src/test/java/application/RecruitmentController.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:70:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ta_description' is not final.
+src/test/java/application/RecruitmentController.java:70:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ta_description' is not final.
+src/test/java/application/RecruitmentController.java:70:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ta_nOffDescription' is not final.
+src/test/java/application/RecruitmentController.java:70:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ta_nOffDescription' is not final.
+src/test/java/application/RecruitmentController.java:70:	The field name 'ta_description' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:70:	The field name 'ta_description' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:70:	The field name 'ta_nOffDescription' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:70:	The field name 'ta_nOffDescription' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:70:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:70:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:72:	Field comments are required
+src/test/java/application/RecruitmentController.java:72:	Field comments are required
+src/test/java/application/RecruitmentController.java:72:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:72:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tf_nOffTitle' is not final.
+src/test/java/application/RecruitmentController.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tf_nOffTitle' is not final.
+src/test/java/application/RecruitmentController.java:72:	The field name 'tf_nOffTitle' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:72:	The field name 'tf_nOffTitle' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:74:	Field comments are required
+src/test/java/application/RecruitmentController.java:74:	Field comments are required
+src/test/java/application/RecruitmentController.java:74:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:74:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:74:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_offer' is not final.
+src/test/java/application/RecruitmentController.java:74:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lbl_offer' is not final.
+src/test/java/application/RecruitmentController.java:74:	The field name 'lbl_offer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:74:	The field name 'lbl_offer' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	Field comments are required
+src/test/java/application/RecruitmentController.java:76:	Field comments are required
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_acceptedCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_acceptedCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_allCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_allCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_allOffers' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_allOffers' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_currentOffers' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_currentOffers' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_pendingCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_pendingCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_rejectedCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'rb_rejectedCand' is not final.
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_acceptedCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_acceptedCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_allCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_allCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_allOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_allOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_currentOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_currentOffers' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_pendingCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_pendingCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_rejectedCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	The field name 'rb_rejectedCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:76:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:76:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:78:	Field comments are required
+src/test/java/application/RecruitmentController.java:78:	Field comments are required
+src/test/java/application/RecruitmentController.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:78:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tv_cand' is not final.
+src/test/java/application/RecruitmentController.java:78:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tv_cand' is not final.
+src/test/java/application/RecruitmentController.java:78:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tv_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:78:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tv_viewCand' is not final.
+src/test/java/application/RecruitmentController.java:78:	The field name 'tv_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:78:	The field name 'tv_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:78:	The field name 'tv_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:78:	The field name 'tv_viewCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:78:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:78:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:80:	Field comments are required
+src/test/java/application/RecruitmentController.java:80:	Field comments are required
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_birth' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_birth' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_birthCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_birthCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_emailCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_emailCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_name' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_name' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_nameCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_nameCand' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_offerTitle' is not final.
+src/test/java/application/RecruitmentController.java:80:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_offerTitle' is not final.
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_birth' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_birth' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_birthCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_birthCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_emailCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_emailCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_nameCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_nameCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_offerTitle' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	The field name 'tc_offerTitle' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:80:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:80:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:82:	Field comments are required
+src/test/java/application/RecruitmentController.java:82:	Field comments are required
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_offerEnd' is not final.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_offerEnd' is not final.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_submitAt' is not final.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_submitAt' is not final.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_submitCand' is not final.
+src/test/java/application/RecruitmentController.java:82:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_submitCand' is not final.
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_offerEnd' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_offerEnd' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_submitAt' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_submitAt' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_submitCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	The field name 'tc_submitCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:82:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:82:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:84:	Field comments are required
+src/test/java/application/RecruitmentController.java:84:	Field comments are required
+src/test/java/application/RecruitmentController.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:84:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:84:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_status' is not final.
+src/test/java/application/RecruitmentController.java:84:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_status' is not final.
+src/test/java/application/RecruitmentController.java:84:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_statusCand' is not final.
+src/test/java/application/RecruitmentController.java:84:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tc_statusCand' is not final.
+src/test/java/application/RecruitmentController.java:84:	The field name 'tc_status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:84:	The field name 'tc_status' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:84:	The field name 'tc_statusCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:84:	The field name 'tc_statusCand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:84:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:84:	Use one line for each declaration, it enhances code readability.
+src/test/java/application/RecruitmentController.java:86:	Field comments are required
+src/test/java/application/RecruitmentController.java:86:	Field comments are required
+src/test/java/application/RecruitmentController.java:86:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:86:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'cbx_cand' is not final.
+src/test/java/application/RecruitmentController.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'cbx_cand' is not final.
+src/test/java/application/RecruitmentController.java:86:	The field name 'cbx_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:86:	The field name 'cbx_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:88:	Field comments are required
+src/test/java/application/RecruitmentController.java:88:	Field comments are required
+src/test/java/application/RecruitmentController.java:88:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tbg_cand' is not final.
+src/test/java/application/RecruitmentController.java:88:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'tbg_cand' is not final.
+src/test/java/application/RecruitmentController.java:88:	The field name 'tbg_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:88:	The field name 'tbg_cand' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:91:	Field comments are required
+src/test/java/application/RecruitmentController.java:91:	Field comments are required
+src/test/java/application/RecruitmentController.java:91:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:91:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:91:	Private field 'jndiname' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:91:	Private field 'jndiname' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:93:	Field comments are required
+src/test/java/application/RecruitmentController.java:93:	Field comments are required
+src/test/java/application/RecruitmentController.java:93:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:93:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/application/RecruitmentController.java:93:	Private field 'jndiname2' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:93:	Private field 'jndiname2' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:95:	Avoid unused private fields such as 'jndiname3'.
+src/test/java/application/RecruitmentController.java:95:	Avoid unused private fields such as 'jndiname3'.
+src/test/java/application/RecruitmentController.java:95:	Field comments are required
+src/test/java/application/RecruitmentController.java:95:	Field comments are required
+src/test/java/application/RecruitmentController.java:95:	Private field 'jndiname3' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:95:	Private field 'jndiname3' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/application/RecruitmentController.java:99:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:99:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:100:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:100:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:101:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:101:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:101:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:101:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:105:	Found 'UR'-anomaly for variable 'offer' (lines '105'-'110').
+src/test/java/application/RecruitmentController.java:105:	Found 'UR'-anomaly for variable 'offer' (lines '105'-'110').
+src/test/java/application/RecruitmentController.java:105:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:105:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:106:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:106:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:107:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:107:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:107:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:107:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:107:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:107:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:108:	Explicit type arguments can be replaced by Diamond Operator
+src/test/java/application/RecruitmentController.java:108:	Explicit type arguments can be replaced by Diamond Operator
+src/test/java/application/RecruitmentController.java:108:	Local variable 'currentOffers' could be declared final
+src/test/java/application/RecruitmentController.java:108:	Local variable 'currentOffers' could be declared final
+src/test/java/application/RecruitmentController.java:109:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:109:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:110:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:110:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:110:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:110:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:111:	This statement should have braces
+src/test/java/application/RecruitmentController.java:111:	This statement should have braces
+src/test/java/application/RecruitmentController.java:116:	Found 'UR'-anomaly for variable 'offer' (lines '116'-'119').
+src/test/java/application/RecruitmentController.java:116:	Found 'UR'-anomaly for variable 'offer' (lines '116'-'119').
+src/test/java/application/RecruitmentController.java:116:	Parameter 'list' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:116:	Parameter 'list' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:116:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:116:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:118:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:118:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:119:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:119:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:119:	Local variable 'lbl' could be declared final
+src/test/java/application/RecruitmentController.java:119:	Local variable 'lbl' could be declared final
+src/test/java/application/RecruitmentController.java:120:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:120:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:124:	Parameter 'location' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:124:	Parameter 'location' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:124:	Parameter 'resources' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:124:	Parameter 'resources' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:129:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/RecruitmentController.java:129:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/RecruitmentController.java:134:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:134:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:134:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:134:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:134:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:134:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:135:	Use equals() to compare object references.
+src/test/java/application/RecruitmentController.java:135:	Use equals() to compare object references.
+src/test/java/application/RecruitmentController.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:139:	The String literal "Save" appears 5 times in this file; the first occurrence is on line 139
+src/test/java/application/RecruitmentController.java:139:	The String literal "Save" appears 5 times in this file; the first occurrence is on line 139
+src/test/java/application/RecruitmentController.java:140:	The String literal "You are in edit mode, finish the changes first" appears 4 times in this file; the first occurrence is on line 140
+src/test/java/application/RecruitmentController.java:140:	The String literal "You are in edit mode, finish the changes first" appears 4 times in this file; the first occurrence is on line 140
+src/test/java/application/RecruitmentController.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:169:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:169:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:169:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:169:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:169:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:169:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:170:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:170:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:171:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:171:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:171:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:171:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:171:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:171:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:172:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:172:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:173:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:173:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:174:	Local variable 'cal' could be declared final
+src/test/java/application/RecruitmentController.java:174:	Local variable 'cal' could be declared final
+src/test/java/application/RecruitmentController.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:184:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:184:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:184:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:184:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:184:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:184:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:185:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:185:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:186:	Found 'DU'-anomaly for variable 'offer_s' (lines '186'-'205').
+src/test/java/application/RecruitmentController.java:186:	Found 'DU'-anomaly for variable 'offer_s' (lines '186'-'205').
+src/test/java/application/RecruitmentController.java:186:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:186:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:186:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:186:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:186:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:186:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:188:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:189:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:189:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:189:	This statement should have braces
+src/test/java/application/RecruitmentController.java:189:	This statement should have braces
+src/test/java/application/RecruitmentController.java:196:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:196:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:196:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:196:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:197:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:197:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:207:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:207:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:207:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:207:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:207:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:207:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:219:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:219:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:219:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:219:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:219:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:219:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:220:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:220:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:221:	Avoid variables with short names like no
+src/test/java/application/RecruitmentController.java:221:	Avoid variables with short names like no
+src/test/java/application/RecruitmentController.java:221:	Local variable 'no' could be declared final
+src/test/java/application/RecruitmentController.java:221:	Local variable 'no' could be declared final
+src/test/java/application/RecruitmentController.java:222:	Local variable 'yes' could be declared final
+src/test/java/application/RecruitmentController.java:222:	Local variable 'yes' could be declared final
+src/test/java/application/RecruitmentController.java:223:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:223:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'buttonMsg' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'buttonMsg' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'msg' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'msg' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'pane' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Parameter 'pane' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:238:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:238:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:239:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:239:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:240:	Local variable 'button' could be declared final
+src/test/java/application/RecruitmentController.java:240:	Local variable 'button' could be declared final
+src/test/java/application/RecruitmentController.java:241:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:241:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:251:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:251:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:251:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:251:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:251:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:251:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:252:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:252:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:253:	Found 'DU'-anomaly for variable 'offer_s' (lines '253'-'274').
+src/test/java/application/RecruitmentController.java:253:	Found 'DU'-anomaly for variable 'offer_s' (lines '253'-'274').
+src/test/java/application/RecruitmentController.java:253:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:253:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:253:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:253:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:253:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:253:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:254:	Found 'DU'-anomaly for variable 'end' (lines '254'-'274').
+src/test/java/application/RecruitmentController.java:254:	Found 'DU'-anomaly for variable 'end' (lines '254'-'274').
+src/test/java/application/RecruitmentController.java:254:	Local variable 'end' could be declared final
+src/test/java/application/RecruitmentController.java:254:	Local variable 'end' could be declared final
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:254:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:255:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:255:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:255:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:255:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:259:	Avoid if (x != y) ..; else ..;
+src/test/java/application/RecruitmentController.java:259:	Avoid if (x != y) ..; else ..;
+src/test/java/application/RecruitmentController.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:262:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:262:	Local variable 'offer' could be declared final
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:277:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:277:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:277:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:277:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:277:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:277:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:278:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:278:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:279:	Found 'DU'-anomaly for variable 'offer_s' (lines '279'-'307').
+src/test/java/application/RecruitmentController.java:279:	Found 'DU'-anomaly for variable 'offer_s' (lines '279'-'307').
+src/test/java/application/RecruitmentController.java:279:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:279:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:279:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:279:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:279:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:279:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:280:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:280:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:282:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:282:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:285:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:285:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:285:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:285:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:286:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:286:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:286:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:286:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:287:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:287:	Local variable 'dialogLayout' could be declared final
+src/test/java/application/RecruitmentController.java:288:	Avoid variables with short names like no
+src/test/java/application/RecruitmentController.java:288:	Avoid variables with short names like no
+src/test/java/application/RecruitmentController.java:288:	Local variable 'no' could be declared final
+src/test/java/application/RecruitmentController.java:288:	Local variable 'no' could be declared final
+src/test/java/application/RecruitmentController.java:289:	Local variable 'delete' could be declared final
+src/test/java/application/RecruitmentController.java:289:	Local variable 'delete' could be declared final
+src/test/java/application/RecruitmentController.java:290:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:290:	Local variable 'dialog' could be declared final
+src/test/java/application/RecruitmentController.java:297:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/RecruitmentController.java:297:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/application/RecruitmentController.java:310:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:310:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:310:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:310:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:310:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:310:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:314:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:314:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:314:	This statement should have braces
+src/test/java/application/RecruitmentController.java:314:	This statement should have braces
+src/test/java/application/RecruitmentController.java:317:	Comment is too large: Line too long
+src/test/java/application/RecruitmentController.java:317:	Comment is too large: Line too long
+src/test/java/application/RecruitmentController.java:321:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:321:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:321:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:321:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:321:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:321:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:322:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:322:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:324:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:324:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:334:	Parameter 'liste' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:334:	Parameter 'liste' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:334:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:334:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:335:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:335:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:345:	Found 'UR'-anomaly for variable 'candidacy' (lines '345'-'354').
+src/test/java/application/RecruitmentController.java:345:	Found 'UR'-anomaly for variable 'candidacy' (lines '345'-'354').
+src/test/java/application/RecruitmentController.java:345:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:345:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:346:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:346:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:347:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:347:	Local variable 'offer_s' could be declared final
+src/test/java/application/RecruitmentController.java:347:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:347:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'offer_s' is not final.
+src/test/java/application/RecruitmentController.java:347:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:347:	The local variable name 'offer_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:348:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:348:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:348:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:348:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:348:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:348:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:349:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:349:	Local variable 'offerlbl' could be declared final
+src/test/java/application/RecruitmentController.java:349:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:349:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:350:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:350:	Local variable 'currentOffer' could be declared final
+src/test/java/application/RecruitmentController.java:350:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:350:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:350:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:350:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:351:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:351:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:352:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:352:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:353:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:353:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:354:	Local variable 'candidate' could be declared final
+src/test/java/application/RecruitmentController.java:354:	Local variable 'candidate' could be declared final
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:355:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:356:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:356:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:356:	Local variable 'dateFormat' could be declared final
+src/test/java/application/RecruitmentController.java:356:	Local variable 'dateFormat' could be declared final
+src/test/java/application/RecruitmentController.java:356:	When instantiating a SimpleDateFormat object, specify a Locale
+src/test/java/application/RecruitmentController.java:356:	When instantiating a SimpleDateFormat object, specify a Locale
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:357:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:358:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:359:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:359:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:359:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:359:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:360:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:360:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:360:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:360:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:366:	Found 'UR'-anomaly for variable 'candidacy' (lines '366'-'371').
+src/test/java/application/RecruitmentController.java:366:	Found 'UR'-anomaly for variable 'candidacy' (lines '366'-'371').
+src/test/java/application/RecruitmentController.java:366:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:366:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:367:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:367:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:368:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:368:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:368:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:368:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:368:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:368:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:369:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:369:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:370:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:370:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:371:	Local variable 'candidate' could be declared final
+src/test/java/application/RecruitmentController.java:371:	Local variable 'candidate' could be declared final
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:372:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:373:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:373:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:373:	Local variable 'dateFormat' could be declared final
+src/test/java/application/RecruitmentController.java:373:	Local variable 'dateFormat' could be declared final
+src/test/java/application/RecruitmentController.java:373:	When instantiating a SimpleDateFormat object, specify a Locale
+src/test/java/application/RecruitmentController.java:373:	When instantiating a SimpleDateFormat object, specify a Locale
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:374:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:384:	Found 'UR'-anomaly for variable 'candidacy' (lines '384'-'390').
+src/test/java/application/RecruitmentController.java:384:	Found 'UR'-anomaly for variable 'candidacy' (lines '384'-'390').
+src/test/java/application/RecruitmentController.java:384:	Parameter 'status' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:384:	Parameter 'status' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:384:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:384:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:385:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:385:	Local variable 'context' could be declared final
+src/test/java/application/RecruitmentController.java:386:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:386:	Local variable 'candidacy_s' could be declared final
+src/test/java/application/RecruitmentController.java:386:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:386:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'candidacy_s' is not final.
+src/test/java/application/RecruitmentController.java:386:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:386:	The local variable name 'candidacy_s' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/application/RecruitmentController.java:387:	Found 'DU'-anomaly for variable 'name' (lines '387'-'399').
+src/test/java/application/RecruitmentController.java:387:	Found 'DU'-anomaly for variable 'name' (lines '387'-'399').
+src/test/java/application/RecruitmentController.java:387:	Local variable 'name' could be declared final
+src/test/java/application/RecruitmentController.java:387:	Local variable 'name' could be declared final
+src/test/java/application/RecruitmentController.java:387:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:387:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:387:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:387:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:388:	Found 'DD'-anomaly for variable 'cand' (lines '388'-'391').
+src/test/java/application/RecruitmentController.java:388:	Found 'DD'-anomaly for variable 'cand' (lines '388'-'391').
+src/test/java/application/RecruitmentController.java:389:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:389:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:390:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:390:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:391:	Found 'DD'-anomaly for variable 'cand' (lines '391'-'391').
+src/test/java/application/RecruitmentController.java:391:	Found 'DD'-anomaly for variable 'cand' (lines '391'-'391').
+src/test/java/application/RecruitmentController.java:395:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:395:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:395:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:395:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:395:	This statement should have braces
+src/test/java/application/RecruitmentController.java:395:	This statement should have braces
+src/test/java/application/RecruitmentController.java:397:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:397:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:397:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:397:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:397:	This statement should have braces
+src/test/java/application/RecruitmentController.java:397:	This statement should have braces
+src/test/java/application/RecruitmentController.java:398:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:398:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/application/RecruitmentController.java:403:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:403:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:403:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:403:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:403:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:403:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:409:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:409:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:409:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:409:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:409:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:409:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:415:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:415:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:415:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:415:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:415:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:415:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:416:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:416:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:416:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:416:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:426:	Parameter 'liste' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:426:	Parameter 'liste' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:426:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:426:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:427:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:427:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:437:	Found 'UR'-anomaly for variable 'candidacy' (lines '437'-'441').
+src/test/java/application/RecruitmentController.java:437:	Found 'UR'-anomaly for variable 'candidacy' (lines '437'-'441').
+src/test/java/application/RecruitmentController.java:437:	Parameter 'allCandidacies' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:437:	Parameter 'allCandidacies' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:437:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:437:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:438:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:438:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:439:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:439:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:440:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:440:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:441:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:441:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:441:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:441:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:442:	This statement should have braces
+src/test/java/application/RecruitmentController.java:442:	This statement should have braces
+src/test/java/application/RecruitmentController.java:444:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/application/RecruitmentController.java:444:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/application/RecruitmentController.java:445:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:445:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/application/RecruitmentController.java:446:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:446:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:447:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:447:	Avoid instantiating new objects inside loops
+src/test/java/application/RecruitmentController.java:447:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:447:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:448:	This statement should have braces
+src/test/java/application/RecruitmentController.java:448:	This statement should have braces
+src/test/java/application/RecruitmentController.java:450:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/application/RecruitmentController.java:450:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/application/RecruitmentController.java:452:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:452:	Avoid using if...else statements without curly braces
+src/test/java/application/RecruitmentController.java:452:	This statement should have braces
+src/test/java/application/RecruitmentController.java:452:	This statement should have braces
+src/test/java/application/RecruitmentController.java:456:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:456:	Avoid variables with short names like e
+src/test/java/application/RecruitmentController.java:456:	Found 'UR'-anomaly for variable 'candidacy' (lines '456'-'463').
+src/test/java/application/RecruitmentController.java:456:	Found 'UR'-anomaly for variable 'candidacy' (lines '456'-'463').
+src/test/java/application/RecruitmentController.java:456:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:456:	Parameter 'e' is not assigned and could be declared final
+src/test/java/application/RecruitmentController.java:456:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:456:	Public method and constructor comments are required
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand' has a Modified Cyclomatic Complexity of 11.
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand' has a Modified Cyclomatic Complexity of 11.
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand' has a Standard Cyclomatic Complexity of 11.
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand' has a Standard Cyclomatic Complexity of 11.
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand(ActionEvent)' has a cyclomatic complexity of 11.
+src/test/java/application/RecruitmentController.java:456:	The method 'triCand(ActionEvent)' has a cyclomatic complexity of 11.
+src/test/java/application/RecruitmentController.java:457:	Found 'DU'-anomaly for variable 'candidacies' (lines '457'-'478').
+src/test/java/application/RecruitmentController.java:457:	Found 'DU'-anomaly for variable 'candidacies' (lines '457'-'478').
+src/test/java/application/RecruitmentController.java:457:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:457:	Local variable 'candidacies' could be declared final
+src/test/java/application/RecruitmentController.java:458:	Found 'DD'-anomaly for variable 'sorted' (lines '458'-'460').
+src/test/java/application/RecruitmentController.java:458:	Found 'DD'-anomaly for variable 'sorted' (lines '458'-'460').
+src/test/java/application/RecruitmentController.java:462:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:462:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:463:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:463:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:464:	This statement should have braces
+src/test/java/application/RecruitmentController.java:464:	This statement should have braces
+src/test/java/application/RecruitmentController.java:467:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:467:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:468:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:468:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:469:	This statement should have braces
+src/test/java/application/RecruitmentController.java:469:	This statement should have braces
+src/test/java/application/RecruitmentController.java:472:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:472:	Local variable 'candidacy' could be declared final
+src/test/java/application/RecruitmentController.java:473:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:473:	Avoid using if statements without curly braces
+src/test/java/application/RecruitmentController.java:474:	This statement should have braces
+src/test/java/application/RecruitmentController.java:474:	This statement should have braces

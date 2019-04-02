@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.ToggleButtonGroup?>
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
 <?import com.jfoenix.controls.JFXDatePicker?>
 <?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXRadioButton?>
 <?import com.jfoenix.controls.JFXTextArea?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -22,8 +26,6 @@
             <AnchorPane layoutX="204.0" prefHeight="500.0" prefWidth="549.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="204.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="0.0">
                <children>
                   <Pane fx:id="pane_interviews" layoutY="7.0" prefHeight="500.0" prefWidth="569.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0" />
-                  <Pane fx:id="pane_tests" layoutY="-3.0" prefHeight="507.0" prefWidth="559.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0" />
-                  <Pane fx:id="pane_candidacies" layoutY="-4.0" prefHeight="507.0" prefWidth="569.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0" />
                   <Pane fx:id="pane_addOffer" layoutX="-1.0" layoutY="-1.0" prefHeight="500.0" prefWidth="549.0" style="-fx-background-color: #BDBDBD;">
                      <children>
                         <Label layoutX="43.0" layoutY="35.0" prefHeight="45.0" prefWidth="205.0" text="New Job Offer">
@@ -84,7 +86,7 @@
                   </Pane>
                   <Pane fx:id="pane_offers" prefHeight="507.0" prefWidth="569.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
                      <children>
-                        <JFXListView fx:id="lv_offers" layoutX="14.0" layoutY="76.0" onMouseClicked="#selectedOffer" prefHeight="330.0" prefWidth="158.0" />
+                        <JFXListView fx:id="lv_offers" layoutX="14.0" layoutY="94.0" onMouseClicked="#selectedOffer" prefHeight="312.0" prefWidth="158.0" />
                         <JFXTextArea fx:id="ta_description" editable="false" labelFloat="true" layoutX="218.0" layoutY="258.0" prefHeight="142.0" prefWidth="317.0" text="Description" wrapText="true" />
                         <JFXDatePicker fx:id="dp_endDate" defaultColor="#00528f" editable="false" layoutX="364.0" layoutY="168.0" />
                         <JFXDatePicker fx:id="dp_startDate" defaultColor="#006594" editable="false" layoutX="362.0" layoutY="89.0" />
@@ -94,11 +96,26 @@
                         <JFXButton fx:id="btn_newOffer" layoutX="336.0" layoutY="454.0" onAction="#newOffer" prefHeight="25.0" prefWidth="61.0" text="New" />
                         <JFXButton fx:id="btn_editOffer" layoutX="407.0" layoutY="454.0" onAction="#editOffer" prefHeight="25.0" prefWidth="61.0" text="Edit" />
                         <JFXButton fx:id="btn_deleteOffer" layoutX="474.0" layoutY="454.0" onAction="#removeOffer" prefHeight="25.0" prefWidth="61.0" text="Delete" />
+                        <ToggleButtonGroup layoutX="14.0" layoutY="59.0" prefHeight="30.0" prefWidth="158.0" selectionType="SINGLE">
+                           <toggles>
+                              <JFXRadioButton fx:id="rb_allOffers" onAction="#toggleButton" selected="true" text="ALL">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></JFXRadioButton>
+                              <JFXRadioButton fx:id="rb_currentOffers" onAction="#toggleButton" text="CURRENT">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></JFXRadioButton>
+                           </toggles>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </ToggleButtonGroup>
                      </children>
                   </Pane>
                   <Pane fx:id="pane_viewCand" prefHeight="500.0" prefWidth="549.0" style="-fx-background-color: #BDBDBD;">
                      <children>
-                        <TableView fx:id="tv_viewCand" layoutX="12.0" layoutY="189.0" onMouseClicked="#onSelectedRow" prefHeight="200.0" prefWidth="525.0">
+                        <TableView fx:id="tv_viewCand" layoutX="12.0" layoutY="189.0" prefHeight="200.0" prefWidth="525.0">
                            <columns>
                               <TableColumn fx:id="tc_nameCand" prefWidth="124.0" text="NAME" />
                               <TableColumn fx:id="tc_birthCand" minWidth="0.0" prefWidth="88.0" text="BIRTH" />
@@ -123,21 +140,107 @@
                               <Glow />
                            </effect>
                         </Label>
-                        <JFXButton fx:id="btn_acceptCand" layoutX="327.0" layoutY="416.0" onAction="#acceptCand" prefHeight="28.0" prefWidth="98.0" text="Accept" />
-                        <JFXButton fx:id="btn_rejectCand" layoutX="441.0" layoutY="416.0" onAction="#rejectCand" prefHeight="28.0" prefWidth="98.0" text="Reject" />
                         <JFXButton fx:id="btn_candProfile" layoutX="14.0" layoutY="418.0" prefHeight="28.0" prefWidth="158.0" text="Candidate profile" />
                      </children>
                   </Pane>
+                  <Pane fx:id="pane_candidacies" layoutY="-4.0" prefHeight="507.0" prefWidth="569.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
+                     <children>
+                        <ToggleButtonGroup fx:id="tbg_cand" layoutX="14.0" layoutY="99.0" prefHeight="32.0" prefWidth="326.0" selectionType="SINGLE">
+                           <toggles>
+                              <JFXRadioButton fx:id="rb_allCand" onAction="#triCand" prefHeight="25.0" prefWidth="56.0" selected="true" text="ALL">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </JFXRadioButton>
+                              <JFXRadioButton fx:id="rb_pendingCand" onAction="#triCand" text="PENDING">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </JFXRadioButton>
+                              <JFXRadioButton fx:id="rb_acceptedCand" onAction="#triCand" text="ACCEPTED">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </JFXRadioButton>
+                              <JFXRadioButton fx:id="rb_rejectedCand" onAction="#triCand" text="REJECTED">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </JFXRadioButton>
+                           </toggles>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </ToggleButtonGroup>
+                        <JFXButton layoutX="6.0" layoutY="436.0" prefHeight="35.0" prefWidth="173.0" text="View candidate profile" />
+                        <TableView fx:id="tv_cand" layoutX="6.0" layoutY="143.0" onMouseClicked="#onSelectedRow" prefHeight="282.0" prefWidth="537.0">
+                          <columns>
+                            <TableColumn fx:id="tc_name" prefWidth="75.0" text="NAME" />
+                            <TableColumn fx:id="tc_birth" prefWidth="95.0" text="BIRTH" />
+                              <TableColumn fx:id="tc_submitAt" prefWidth="100.0" text="SUBMITTED AT" />
+                              <TableColumn fx:id="tc_status" prefWidth="75.0" text="STATUS" />
+                              <TableColumn fx:id="tc_offerTitle" prefWidth="109.0" text="OFFER TITLE" />
+                              <TableColumn fx:id="tc_offerEnd" prefWidth="92.0" text="OFFER END" />
+                          </columns>
+                        </TableView>
+                        <JFXComboBox fx:id="cbx_cand" labelFloat="true" layoutX="398.0" layoutY="103.0" onAction="#triCand" prefHeight="25.0" prefWidth="138.0" />
+                        <JFXButton fx:id="btn_acceptCand" layoutX="372.0" layoutY="441.0" onAction="#acceptCand" prefHeight="25.0" prefWidth="78.0" text="Accept" />
+                        <JFXButton fx:id="btn_rejectCand" layoutX="457.0" layoutY="441.0" onAction="#rejectCand" prefHeight="25.0" prefWidth="78.0" text="Reject" />
+                     </children></Pane>
+                  <Pane fx:id="pane_tests" layoutY="-3.0" prefHeight="507.0" prefWidth="559.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
+                     <children>
+                        <JFXComboBox fx:id="cbx_tests" layoutX="318.0" layoutY="59.0" onAction="#onSelectTest" prefHeight="25.0" prefWidth="158.0" />
+                        <JFXListView fx:id="lv_questions" layoutX="12.0" layoutY="112.0" prefHeight="338.0" prefWidth="150.0" />
+                        <JFXTextField fx:id="tf_answer" editable="false" layoutX="300.0" layoutY="220.0" prefHeight="25.0" prefWidth="215.0" />
+                        <JFXTextField fx:id="tf_choice1" editable="false" layoutX="300.0" layoutY="286.0" prefHeight="25.0" prefWidth="215.0" />
+                        <JFXTextField fx:id="tf_choice2" editable="false" layoutX="300.0" layoutY="351.0" prefHeight="25.0" prefWidth="215.0" />
+                        <JFXTextField fx:id="tf_choice3" editable="false" layoutX="300.0" layoutY="412.0" prefHeight="25.0" prefWidth="215.0" />
+                        <JFXTextArea fx:id="ta_question" editable="false" layoutX="300.0" layoutY="112.0" prefHeight="73.0" prefWidth="215.0" />
+                        <Label layoutX="179.0" layoutY="112.0" text="Question">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="179.0" layoutY="207.0" text="Answer">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="181.0" layoutY="273.0" text="Choice 1">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="181.0" layoutY="338.0" text="Choice 2">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="181.0" layoutY="399.0" text="Choice 3">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <JFXButton fx:id="btn_newQuestion" layoutX="300.0" layoutY="468.0" prefHeight="25.0" prefWidth="72.0" text="New" />
+                        <JFXButton fx:id="btn_editQuestion" layoutX="381.0" layoutY="468.0" prefHeight="25.0" prefWidth="69.0" text="Edit" />
+                        <JFXButton fx:id="btn_deleteQuestion" layoutX="450.0" layoutY="468.0" prefHeight="25.0" prefWidth="69.0" text="Delete" />
+                        <JFXButton fx:id="btn_demoTest" layoutX="14.0" layoutY="468.0" prefHeight="25.0" prefWidth="150.0" text="Demo Test" />
+                        <JFXButton fx:id="btn_addTest" layoutX="12.0" layoutY="47.0" prefHeight="25.0" prefWidth="89.0" text="Add Test" />
+                        <JFXButton fx:id="btn_deleteTest" layoutX="14.0" layoutY="84.0" prefHeight="25.0" prefWidth="88.0" text="Delete Test" />
+                     </children></Pane>
                </children>
             </AnchorPane>
             <AnchorPane prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #212121;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <AnchorPane prefHeight="500.0" prefWidth="40.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <AnchorPane prefHeight="500.0" prefWidth="40.0" style="-fx-background-color: #757575;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <effect>
-                        <DropShadow />
+                        <DropShadow height="82.46" radius="36.4825" width="65.47" />
                      </effect>
                   </AnchorPane>
-                  <JFXButton fx:id="btn_showOffers" layoutY="93.0" onAction="#menuButton" prefHeight="50.0" prefWidth="205.0" text="MY JOB OFFERS" textFill="#f75c5c" />
+                  <JFXButton fx:id="btn_showOffers" layoutY="93.0" onAction="#menuButton" prefHeight="50.0" prefWidth="205.0" text="MY JOB OFFERS" textFill="#f75c5c">
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="0.0" radius="0.0" width="0.0" />
+                     </effect></JFXButton>
                   <JFXButton fx:id="btn_showCandidacies" layoutY="143.0" onAction="#menuButton" prefHeight="50.0" prefWidth="205.0" text="ALL CANDIDACIES" textFill="#f75c5c" />
                   <JFXButton fx:id="btn_showInterviews" layoutY="193.0" onAction="#menuButton" prefHeight="50.0" prefWidth="205.0" text="INTERVIEWS" textFill="#f75c5c" />
                   <JFXButton fx:id="btn_showTests" layoutY="243.0" onAction="#menuButton" prefHeight="50.0" prefWidth="205.0" text="TESTS" textFill="#f75c5c" />
