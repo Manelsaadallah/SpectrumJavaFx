@@ -1,6 +1,7 @@
 package application;
 
 import java.awt.Desktop.Action;
+import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -38,8 +39,10 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -48,6 +51,8 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import services_cand_interv.CandidacyServiceRemote;
 import services_cand_interv.InterviewServiceRemote;
 import services_cand_interv.JobOfferServiceRemote;
@@ -601,15 +606,15 @@ public class RecruitmentController implements Initializable {
 		}else if (btn_newQuestion.getText().equals("Save")) {
 			simpleDialog(rootPane, "You are in edit mode, save the changes first", "Ok");
 		}else {
-			Test test = interview_s.searchTest(EntId, cbx_tests.getValue());
-			Question currentQuestion = interview_s.searchQuestion(test.getId(),lv_questions.getSelectionModel().getSelectedItem().getText());
 			JFXDialogLayout dialogLayout = new JFXDialogLayout();
 			JFXButton no = new JFXButton("No");
 			JFXButton delete = new JFXButton("Delete");
 			JFXDialog dialog = new JFXDialog(rootPane,dialogLayout,JFXDialog.DialogTransition.TOP);
 			delete.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent mouseEvent)-> {
-				interview_s.removeQuestion(currentQuestion);
 				dialog.close();
+				Test test = interview_s.searchTest(EntId, cbx_tests.getValue());
+				Question currentQuestion = interview_s.searchQuestion(test.getId(),lv_questions.getSelectionModel().getSelectedItem().getText());
+				interview_s.removeQuestion(currentQuestion);
 				try {
 					printQuestions(interview_s.searchTest(EntId, cbx_tests.getValue()));
 				} catch (NamingException e1) {
@@ -748,6 +753,7 @@ public class RecruitmentController implements Initializable {
 			Test test = new Test();
 			test.setType(cbx_testType.getValue());
 			test.setDuration(Integer.parseInt(tf_testDuration.getText()));
+			test.setModified_at(new Date());
 			test=interview_s.addTest(test, EntId);
 			for (Question question : tempQuestions) {
 				interview_s.addQuestionToTest(test.getId(), question);
@@ -768,11 +774,29 @@ public class RecruitmentController implements Initializable {
 			simpleDialog(rootPane, "Please select a test to delete", "Ok");
 		else {
 			Test test = interview_s.searchTest(EntId, cbx_tests.getValue());
-			interview_s.deleteTest(test);
-			cbx_tests.getItems().clear();
-			for (Test tst : loadTests()) {
-				cbx_tests.getItems().add(tst.getType());
-			}
+			JFXDialogLayout dialogLayout = new JFXDialogLayout();
+			JFXButton no = new JFXButton("No");
+			JFXButton delete = new JFXButton("Delete");
+			JFXDialog dialog = new JFXDialog(rootPane,dialogLayout,JFXDialog.DialogTransition.TOP);
+			delete.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent mouseEvent)-> {
+				dialog.close();
+				interview_s.deleteTest(test);
+				cbx_tests.getItems().clear();
+				try {
+					for (Test tst : loadTests()) {
+						cbx_tests.getItems().add(tst.getType());
+					}
+				} catch (NamingException e1) {
+					e1.printStackTrace();
+				}
+			});
+			no.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent mouseEvent)-> {
+				dialog.close();
+			});
+			dialogLayout.setHeading(new Label("Do you really want to delete this test ?"));
+			dialogLayout.setActions(no,delete);
+			dialog.show();
+			
 		}
 	}
 		
@@ -806,6 +830,17 @@ public class RecruitmentController implements Initializable {
 	        return false;
 	    }
 	    return true;
+	}
+	
+	public Test getTestForDemo() throws NamingException {
+		Context context = new InitialContext();
+		InterviewServiceRemote interview_s = (InterviewServiceRemote ) context.lookup(jndiname3);
+		if (cbx_tests.getValue()==null) {
+			simpleDialog(rootPane, "Please select a test for demo", "Ok");
+			return null;
+		}
+		else
+			return interview_s.searchTest(EntId, cbx_tests.getValue());
 	}
 	//------------------------------------------TESTS END------------------------------------------------------
 	
@@ -857,6 +892,44 @@ public class RecruitmentController implements Initializable {
 			}
 			loadInterviews(interviews);
 		}
+	}
+	@FXML
+	public void demoTest(ActionEvent e) throws IOException {
+		Stage stage = new Stage();
+		Parent root = FXMLLoader.load(getClass().getResource("Quizz.fxml"));
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.setTitle("Spectrum");
+		stage.show();
+	}
+	@FXML
+	public void declineInterview(ActionEvent e) throws NamingException {
+		Context context = new InitialContext();
+		InterviewServiceRemote interview_s = (InterviewServiceRemote ) context.lookup(jndiname3);
+		if(tv_interviews.getSelectionModel().getSelectedItem()==null) {
+			simpleDialog(rootPane, "Please select an interview", "Ok");
+		}else {
+			JFXDialogLayout dialogLayout = new JFXDialogLayout();
+			JFXButton no = new JFXButton("No");
+			JFXButton delete = new JFXButton("Decline");
+			JFXDialog dialog = new JFXDialog(rootPane,dialogLayout,JFXDialog.DialogTransition.TOP);
+			delete.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent mouseEvent)-> {
+				interview_s.cancelInterview(tv_interviews.getSelectionModel().getSelectedItem().getId());
+				dialog.close();
+				try {
+					loadInterviews(getInterviews());
+				} catch (NamingException e1) {
+					e1.printStackTrace();
+				}
+			});
+			no.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent mouseEvent)-> {
+				dialog.close();
+			});
+			dialogLayout.setHeading(new Label("Do you really want to decline this interview ?"));
+			dialogLayout.setActions(no,delete);
+			dialog.show();
+		}
+		
 	}
 	
 }

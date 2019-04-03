@@ -12,14 +12,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+<StackPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.QuizzController">
    <children>
       <AnchorPane prefHeight="439.0" prefWidth="724.0">
          <children>
             <VBox layoutX="68.0" layoutY="189.0" prefHeight="144.0" prefWidth="586.0" spacing="5.0">
                <children>
-                  <RadioButton fx:id="choice1" layoutX="39.0" layoutY="142.0" mnemonicParsing="false" onAction="#onAnswerSelected" prefHeight="49.0" prefWidth="906.0" wrapText="true">
+                  <RadioButton fx:id="rb_choice1" layoutX="39.0" layoutY="142.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="906.0" wrapText="true">
                      <toggleGroup>
                         <ToggleGroup fx:id="Choices" />
                      </toggleGroup>
@@ -27,12 +26,12 @@
                         <Insets bottom="10.0" left="10.0" top="5.0" />
                      </padding>
                   </RadioButton>
-                  <RadioButton fx:id="choice2" layoutX="39.0" layoutY="184.0" mnemonicParsing="false" onAction="#onAnswerSelected" prefHeight="51.0" prefWidth="905.0" toggleGroup="$Choices" wrapText="true">
+                  <RadioButton fx:id="rb_choice2" layoutX="39.0" layoutY="184.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="905.0" toggleGroup="$Choices" wrapText="true">
                      <padding>
                         <Insets bottom="10.0" left="10.0" />
                      </padding>
                   </RadioButton>
-                  <RadioButton fx:id="choice3" layoutX="39.0" layoutY="223.0" mnemonicParsing="false" onAction="#onAnswerSelected" prefHeight="50.0" prefWidth="903.0" toggleGroup="$Choices" wrapText="true">
+                  <RadioButton fx:id="rb_choice3" layoutX="39.0" layoutY="223.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="903.0" toggleGroup="$Choices" wrapText="true">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -40,7 +39,7 @@
                         <Insets bottom="10.0" left="10.0" />
                      </padding>
                   </RadioButton>
-                  <RadioButton fx:id="choice4" layoutX="39.0" layoutY="260.0" mnemonicParsing="false" onAction="#onAnswerSelected" prefHeight="50.0" prefWidth="902.0" toggleGroup="$Choices" wrapText="true">
+                  <RadioButton fx:id="rb_choice4" layoutX="39.0" layoutY="260.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="902.0" toggleGroup="$Choices" wrapText="true">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -52,7 +51,7 @@
             </VBox>
             <Pane layoutX="26.0" layoutY="75.0" prefHeight="77.0" prefWidth="672.0" style="-fx-border-color: #212121;">
                <children>
-                  <Label layoutX="14.0" layoutY="22.0" prefHeight="33.0" prefWidth="645.0" text="Label">
+                  <Label fx:id="lbl_currentQuestion" layoutX="14.0" layoutY="22.0" prefHeight="33.0" prefWidth="645.0" text="Label">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -60,20 +59,20 @@
                </children>
             </Pane>
             <Separator layoutX="36.0" layoutY="358.0" prefHeight="13.0" prefWidth="665.0" />
-            <JFXButton layoutX="36.0" layoutY="380.0" text="&lt; Back" />
-            <JFXButton layoutX="102.0" layoutY="380.0" text="Next &gt;" />
-            <JFXButton disable="true" layoutX="593.0" layoutY="393.0" prefHeight="25.0" prefWidth="109.0" text="Submit" />
+            <JFXButton fx:id="btn_back" layoutX="36.0" layoutY="380.0" text="&lt; Back" />
+            <JFXButton fx:id="btn_next" layoutX="102.0" layoutY="380.0" text="Next &gt;" />
+            <JFXButton fx:id="btn_submit" disable="true" layoutX="589.0" layoutY="380.0" prefHeight="25.0" prefWidth="109.0" text="Submit" />
             <Label layoutX="551.0" layoutY="52.0" prefHeight="19.0" prefWidth="53.0" text="Question">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="609.0" layoutY="52.0" prefHeight="19.0" prefWidth="33.0" text="nb">
+            <Label fx:id="lbl_numberQuestion" layoutX="609.0" layoutY="52.0" prefHeight="19.0" prefWidth="33.0" text="0">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="638.0" layoutY="52.0" prefHeight="19.0" prefWidth="33.0" text="tot">
+            <Label fx:id="lbl_totalQuestions" layoutX="638.0" layoutY="52.0" prefHeight="19.0" prefWidth="33.0" text="0">
                <font>
                   <Font size="13.0" />
                </font>
@@ -83,16 +82,17 @@
                   <Font size="13.0" />
                </font>
             </Label>
-            <Label layoutX="26.0" layoutY="45.0" prefHeight="19.0" prefWidth="41.0" text="min">
+            <Label fx:id="lbl_duration" layoutX="33.0" layoutY="48.0" prefHeight="28.0" prefWidth="25.0" text="0" textAlignment="CENTER">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <Label layoutX="67.0" layoutY="52.0" prefHeight="19.0" prefWidth="70.0" text="remaining">
+            <Label layoutX="67.0" layoutY="52.0" prefHeight="19.0" prefWidth="94.0" text="min remaining">
                <font>
                   <Font size="13.0" />
                </font>
             </Label>
+            <JFXButton fx:id="btn_startQuizz" layoutX="26.0" layoutY="14.0" onAction="#onStartQuizz" prefHeight="25.0" prefWidth="94.0" text="Start Quizz" />
          </children>
       </AnchorPane>
    </children>
